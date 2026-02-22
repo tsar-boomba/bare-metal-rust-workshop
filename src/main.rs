@@ -107,6 +107,7 @@ fn set_pin_high(n: u8) {
     unsafe { SIO_GPIO_OUT_SET.write_volatile(1 << n) }
 }
 
+// Only works for pin 0-31
 fn set_pin_low(n: u8) {
     unsafe { SIO_GPIO_OUT_CLEAR.write_volatile(1 << n) }
 }
