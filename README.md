@@ -8,7 +8,7 @@ Welome to the workshop! Where dreams become reality.
 
 1. Run `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
 2. Press enter to proceed with default installation
-3. Run `. "$HOME/.cargo/env"`
+3. Run `source "$HOME/.cargo/env"`
 4. Confirm installation with the following:
 
 ```bash
